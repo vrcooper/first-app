@@ -1,0 +1,48 @@
+2015-06-26T07:13:25.483720+00:00 heroku[api]: Enable Logplex by vcooper_us@yahoo.com
+2015-06-26T07:13:25.483720+00:00 heroku[api]: Release v2 created by vcooper_us@yahoo.com
+2015-06-26T07:15:29.352781+00:00 heroku[slug-compiler]: Slug compilation started
+2015-06-26T07:15:29.352800+00:00 heroku[slug-compiler]: Slug compilation failed: failed to compile Ruby app
+2015-06-26T07:25:08.186186+00:00 heroku[api]: Set LANG, RAILS_ENV, RACK_ENV, SECRET_KEY_BASE, RAILS_SERVE_STATIC_FILES config vars by vcooper_us@yahoo.com
+2015-06-26T07:25:08.186186+00:00 heroku[api]: Release v3 created by vcooper_us@yahoo.com
+2015-06-26T07:25:08.590913+00:00 heroku[api]: Attach DATABASE resource by vcooper_us@yahoo.com
+2015-06-26T07:25:08.590913+00:00 heroku[api]: Release v4 created by vcooper_us@yahoo.com
+2015-06-26T07:25:08.814976+00:00 heroku[api]: Scale to web=1 by vcooper_us@yahoo.com
+2015-06-26T07:25:08.858433+00:00 heroku[api]: Deploy e1d7aac by vcooper_us@yahoo.com
+2015-06-26T07:25:08.858433+00:00 heroku[api]: Release v5 created by vcooper_us@yahoo.com
+2015-06-26T07:25:08.925155+00:00 heroku[slug-compiler]: Slug compilation started
+2015-06-26T07:25:08.925174+00:00 heroku[slug-compiler]: Slug compilation finished
+2015-06-26T07:25:12.216910+00:00 heroku[web.1]: Starting process with command `bin/rails server -p 24519 -e production`
+2015-06-26T07:25:16.063152+00:00 app[web.1]: [2015-06-26 07:25:16] INFO  ruby 2.0.0 (2015-04-13) [x86_64-linux]
+2015-06-26T07:25:16.063054+00:00 app[web.1]: [2015-06-26 07:25:16] INFO  WEBrick 1.3.1
+2015-06-26T07:25:16.063765+00:00 app[web.1]: [2015-06-26 07:25:16] INFO  WEBrick::HTTPServer#start: pid=3 port=24519
+2015-06-26T07:25:16.156964+00:00 heroku[web.1]: State changed from starting to up
+2015-06-26T07:27:06.875139+00:00 app[web.1]: => Booting WEBrick
+2015-06-26T07:27:06.875145+00:00 app[web.1]: => Rails 4.2.2 application starting in production on http://0.0.0.0:24519
+2015-06-26T07:27:06.875149+00:00 app[web.1]: => Run `rails server -h` for more startup options
+2015-06-26T07:27:06.875151+00:00 app[web.1]: => Ctrl-C to shutdown server
+2015-06-26T07:27:06.875153+00:00 app[web.1]: Started GET "/" for 73.158.160.89 at 2015-06-26 07:27:06 +0000
+2015-06-26T07:27:06.959540+00:00 app[web.1]: Processing by ApplicationController#hello as HTML
+2015-06-26T07:27:06.968781+00:00 app[web.1]: Completed 200 OK in 9ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+2015-06-26T07:27:06.975696+00:00 heroku[router]: at=info method=GET path="/" host=mysterious-caverns-4553.herokuapp.com request_id=0776d8ac-1acd-4e27-8d5e-7d6b5f6e90b1 fwd="73.158.160.89" dyno=web.1 connect=2ms service=104ms status=200 bytes=489
+2015-06-26T07:27:06.968465+00:00 app[web.1]:   Rendered text template (0.0ms)
+2015-06-26T07:27:07.370273+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=mysterious-caverns-4553.herokuapp.com request_id=dd083180-1d27-48fe-b07a-7b4849177319 fwd="73.158.160.89" dyno=web.1 connect=39ms service=4ms status=200 bytes=228
+2015-06-26T07:27:59.744546+00:00 heroku[router]: at=info method=GET path="/" host=mysterious-caverns-4553.herokuapp.com request_id=65a05465-7bac-429d-8170-0f6d56324bee fwd="73.158.160.89" dyno=web.1 connect=2ms service=6ms status=304 bytes=397
+2015-06-26T07:27:59.740423+00:00 app[web.1]: Processing by ApplicationController#hello as HTML
+2015-06-26T07:27:59.741287+00:00 app[web.1]: Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+2015-06-26T07:27:59.738552+00:00 app[web.1]: Started GET "/" for 73.158.160.89 at 2015-06-26 07:27:59 +0000
+2015-06-26T07:27:59.741113+00:00 app[web.1]:   Rendered text template (0.0ms)
+2015-06-26T07:32:18.974074+00:00 heroku[router]: at=info method=GET path="/" host=mysterious-caverns-4553.herokuapp.com request_id=5b3232ba-53d9-4c4a-a7a9-ceeaddc9cc65 fwd="73.158.160.89" dyno=web.1 connect=1ms service=18ms status=304 bytes=397
+2015-06-26T07:32:18.954737+00:00 app[web.1]: Started GET "/" for 73.158.160.89 at 2015-06-26 07:32:18 +0000
+2015-06-26T07:32:18.957927+00:00 app[web.1]:   Rendered text template (0.0ms)
+2015-06-26T07:32:18.957366+00:00 app[web.1]: Processing by ApplicationController#hello as HTML
+2015-06-26T07:32:18.958120+00:00 app[web.1]: Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+2015-06-26T07:38:14.623187+00:00 heroku[router]: at=info method=GET path="/" host=mysterious-caverns-4553.herokuapp.com request_id=dcf0772b-4ad2-4dde-be4c-516d6005f79c fwd="73.158.160.89" dyno=web.1 connect=1ms service=6ms status=200 bytes=489
+2015-06-26T07:38:14.619930+00:00 app[web.1]: Started GET "/" for 73.158.160.89 at 2015-06-26 07:38:14 +0000
+2015-06-26T07:38:14.622151+00:00 app[web.1]:   Rendered text template (0.0ms)
+2015-06-26T07:38:14.621627+00:00 app[web.1]: Processing by ApplicationController#hello as HTML
+2015-06-26T07:38:14.622317+00:00 app[web.1]: Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+2015-06-26T07:38:35.243060+00:00 heroku[router]: at=info method=GET path="/" host=mysterious-caverns-4553.herokuapp.com request_id=4588ac5b-f625-4a4a-8280-873f5a114f20 fwd="73.158.160.89" dyno=web.1 connect=1ms service=7ms status=200 bytes=489
+2015-06-26T07:38:35.239243+00:00 app[web.1]: Started GET "/" for 73.158.160.89 at 2015-06-26 07:38:35 +0000
+2015-06-26T07:38:35.241254+00:00 app[web.1]:   Rendered text template (0.0ms)
+2015-06-26T07:38:35.240739+00:00 app[web.1]: Processing by ApplicationController#hello as HTML
+2015-06-26T07:38:35.241430+00:00 app[web.1]: Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
